@@ -1,0 +1,33 @@
+<div>
+    <h3>Event Details:</h3>
+
+    <div class="jumbotron" ng-controller="detailsCtrl">
+        <h3>{{ eventDetails.name }} (id#: {{ eventDetails.id }})</h3>
+
+        <p>{{ eventDetails.description }}</p>
+
+        <p>You have RSVP'd: {{eventDetails.response}}</p>
+
+        <!--<form>
+            Name: <input type="text" ng-model="eventDetails.guestName"><br>
+            <!-- TODO: Initialize radio button based on eventDetails.response -->
+            <!-- TODO: Set default values of form based on eventDetails after submit -->
+            <!-- <div ng-init="response = 'Yes'">
+                <input type="radio" ng-model="response" value="Yes">Attending
+                <input type="radio" ng-model="response" value="No">Not Attending<br>
+            </div> -->
+            <!-- <div ng-show="response !== 'No'">
+                How many guests will you bring: <br>
+                <input type="text" ng-model="eventDetails.extraGuests">
+            </div>
+            <div ng-show="response === 'No'">
+                Reason for not attending: <br>
+                <input type="textarea" ng-model="eventDetails.excuse">
+            </div>
+            <input type="submit" ng-click="submitForm(eventDetails.id, eventDetails.guestName, response, eventDetails.extraGuests, eventDetails.excuse)">-->
+
+        </form>
+
+    </div>
+
+</div>

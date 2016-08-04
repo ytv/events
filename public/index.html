@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+</head>
+<body>
+    <h1>Event Manager</h1>
+    <div ng-view></div>
+
+    <script src="http://code.angularjs.org/1.5.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="app/appModule.js"></script>
+    <script src="app/jstemplates/events.js"></script>
+    <script src="app/jstemplates/details.js"></script>
+    <script src="app/appRouter.js"></script>
+    <script src="app/config.js"></script>
+    <script src="app/shared/eventsService.js"></script>
+    <script src="app/shared/mockServerService.js"></script>
+    <script src="app/events/eventsModule.js"></script>
+    <script src="app/events/eventsCtrl.js"></script>
+    <script src="app/events/eventsTypeCtrl.js"></script>
+    <script src="app/details/detailsModule.js"></script>
+    <script src="app/details/detailsCtrl.js"></script>
+</body>
+</html>
